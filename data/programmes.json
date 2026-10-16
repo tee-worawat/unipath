@@ -1,0 +1,584 @@
+[
+  {
+    "id": "muic-computer-science",
+    "university_id": "mu",
+    "university_en": "Mahidol University",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "programme_en": "Computer Science",
+    "programme_th": "วิทยาการคอมพิวเตอร์",
+    "official_title": "Program in Computer Science (International Program)",
+    "faculty_or_college": "Mahidol University International College",
+    "campus": "Salaya",
+    "province": "Nakhon Pathom",
+    "region": "central",
+    "programme_format": "international",
+    "teaching_language": "en",
+    "language_evidence": "college_statement",
+    "interest_tags": [
+      "technology",
+      "data",
+      "science"
+    ],
+    "summary_th": "สำรวจการเขียนโปรแกรมและการใช้ข้อมูลแก้ปัญหา",
+    "suggested_project_th": "สร้างเว็บแนะนำกิจกรรมจากความสนใจของผู้ใช้",
+    "programme_url": "https://muic.mahidol.ac.th/en/programs/science/major/major-in-computer-science",
+    "admission_url": "https://muic.mahidol.ac.th/en/study-at-muic/admissions-requirement/undergraduate-admission/regular-applicants/",
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "muic-cs",
+      "location": "muic-directory",
+      "language": "muic-language"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": []
+  },
+  {
+    "id": "muic-communication-design",
+    "university_id": "mu",
+    "university_en": "Mahidol University",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "programme_en": "Communication Design",
+    "programme_th": "การออกแบบนิเทศศิลป์",
+    "official_title": "Program in Communication Design (International Program)",
+    "faculty_or_college": "Mahidol University International College",
+    "campus": "Salaya",
+    "province": "Nakhon Pathom",
+    "region": "central",
+    "programme_format": "international",
+    "teaching_language": "en",
+    "language_evidence": "college_statement",
+    "interest_tags": [
+      "design",
+      "communication"
+    ],
+    "summary_th": "สำรวจการออกแบบเพื่อสื่อสารความคิดและเรื่องราว",
+    "suggested_project_th": "ออกแบบเว็บไซต์รณรงค์เรื่องที่อยากให้คนเข้าใจ",
+    "programme_url": "https://muic.mahidol.ac.th/en/programs/communication-design-and-media-communication/major/communication-design",
+    "admission_url": "https://muic.mahidol.ac.th/en/study-at-muic/admissions-requirement/undergraduate-admission/regular-applicants/",
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "muic-design",
+      "location": "muic-directory",
+      "language": "muic-language"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": []
+  },
+  {
+    "id": "muic-food-science",
+    "university_id": "mu",
+    "university_en": "Mahidol University",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "programme_en": "Food Science and Technology",
+    "programme_th": "วิทยาศาสตร์และเทคโนโลยีการอาหาร",
+    "official_title": "Program in Food Science and Technology (International Program)",
+    "faculty_or_college": "Mahidol University International College",
+    "campus": "Salaya",
+    "province": "Nakhon Pathom",
+    "region": "central",
+    "programme_format": "international",
+    "teaching_language": "en",
+    "language_evidence": "college_statement",
+    "interest_tags": [
+      "science",
+      "food",
+      "business"
+    ],
+    "summary_th": "สำรวจวิทยาศาสตร์อาหารและแนวคิดผลิตภัณฑ์อาหาร",
+    "suggested_project_th": "สร้างเว็บสำรวจแนวคิดผลิตภัณฑ์อาหารจากวัตถุดิบสมมติ",
+    "programme_url": "https://muic.mahidol.ac.th/en/programs/science/major/major-in-food-science-and-technology",
+    "admission_url": "https://muic.mahidol.ac.th/en/study-at-muic/admissions-requirement/undergraduate-admission/regular-applicants/",
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "muic-food",
+      "location": "muic-directory",
+      "language": "muic-language"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": []
+  },
+  {
+    "id": "muic-international-relations",
+    "university_id": "mu",
+    "university_en": "Mahidol University",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "programme_en": "International Relations and Global Affairs",
+    "programme_th": "ความสัมพันธ์ระหว่างประเทศและกิจการทั่วโลก",
+    "official_title": "Program in International Relations and Global Affairs (International Program)",
+    "faculty_or_college": "Mahidol University International College",
+    "campus": "Salaya",
+    "province": "Nakhon Pathom",
+    "region": "central",
+    "programme_format": "international",
+    "teaching_language": "en",
+    "language_evidence": "college_statement",
+    "interest_tags": [
+      "society",
+      "communication",
+      "people"
+    ],
+    "summary_th": "สำรวจความสัมพันธ์ระหว่างประเทศและประเด็นสังคม",
+    "suggested_project_th": "สร้างเว็บแนะนำหัวข้ออภิปรายเรื่องปัญหาระดับโลก",
+    "programme_url": "https://muic.mahidol.ac.th/en/programs/social-science/major/major-in-international-relations-and-global-affairs",
+    "admission_url": "https://muic.mahidol.ac.th/en/study-at-muic/admissions-requirement/undergraduate-admission/regular-applicants/",
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "muic-irga",
+      "location": "muic-directory",
+      "language": "muic-language"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": []
+  },
+  {
+    "id": "cmu-software-engineering",
+    "university_id": "cmu",
+    "university_en": "Chiang Mai University",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "programme_en": "Software Engineering",
+    "programme_th": "วิศวกรรมซอฟต์แวร์",
+    "official_title": "Bachelor of Science Program in Software Engineering (International Program)",
+    "faculty_or_college": "College of Arts, Media and Technology",
+    "campus": "Chiang Mai",
+    "province": "Chiang Mai",
+    "region": "north",
+    "programme_format": "international",
+    "teaching_language": "en",
+    "language_evidence": "programme_statement",
+    "interest_tags": [
+      "technology",
+      "design"
+    ],
+    "summary_th": "สำรวจการออกแบบ พัฒนา และทดสอบซอฟต์แวร์",
+    "suggested_project_th": "สร้างเว็บช่วยเพื่อนเลือกชมรมพร้อมทดสอบผลลัพธ์",
+    "programme_url": "https://www.camt.cmu.ac.th/en/courses-admissions/bachelor-software-engineering/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "cmu-se",
+      "location": "cmu-contact",
+      "language": "cmu-se"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Admission sections may contain older-cycle information; no current intake is asserted."
+    ]
+  },
+  {
+    "id": "cmu-digital-game",
+    "university_id": "cmu",
+    "university_en": "Chiang Mai University",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "programme_en": "Digital Game",
+    "programme_th": "ดิจิทัลเกม",
+    "official_title": "Bachelor of Science Program in Digital Game",
+    "faculty_or_college": "College of Arts, Media and Technology",
+    "campus": "Chiang Mai",
+    "province": "Chiang Mai",
+    "region": "north",
+    "programme_format": "bilingual",
+    "teaching_language": "th_en",
+    "language_evidence": "programme_statement",
+    "interest_tags": [
+      "games",
+      "technology",
+      "design"
+    ],
+    "summary_th": "สำรวจการออกแบบเกมและการเขียนโปรแกรมเกม",
+    "suggested_project_th": "สร้างเว็บเลือกเส้นทางในเกมตามการตัดสินใจ",
+    "programme_url": "https://www.camt.cmu.ac.th/en/courses-admissions/dg-bachelor-of-science-program-in-digital-game/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "cmu-game",
+      "location": "cmu-contact",
+      "language": "cmu-game"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Curriculum update notice on source page.",
+      "Programme page states Thai/English; a separate CAMT 2026 slide labels the format Thai. Check the selected intake before relying on the language label."
+    ]
+  },
+  {
+    "id": "cmu-animation-vfx",
+    "university_id": "cmu",
+    "university_en": "Chiang Mai University",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "programme_en": "Animation and Visual Effects",
+    "programme_th": "แอนนิเมชันและวิชวลเอฟเฟกต์",
+    "official_title": "ANI: Bachelor of Science Program in Animation and Visual Effects",
+    "faculty_or_college": "College of Arts, Media and Technology",
+    "campus": "Chiang Mai",
+    "province": "Chiang Mai",
+    "region": "north",
+    "programme_format": "unknown",
+    "teaching_language": "unknown",
+    "language_evidence": "conflicting",
+    "interest_tags": [
+      "design",
+      "communication",
+      "technology"
+    ],
+    "summary_th": "สำรวจการเล่าเรื่องด้วยภาพเคลื่อนไหวและเทคโนโลยี",
+    "suggested_project_th": "สร้างเว็บแนะนำแนวทางออกแบบตัวละครจากคำตอบ",
+    "programme_url": "https://www.camt.cmu.ac.th/en/courses-admissions/ani-bachelor-of-science-program-in-animation-and-visual-effects/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "cmu-animation",
+      "location": "cmu-contact",
+      "language": "cmu-animation"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Official title records the page heading only; degree details conflict within the page.",
+      "Page says Thai in its overview and Thai/English in its detail. Language and format remain unknown.",
+      "Curriculum is being updated."
+    ]
+  },
+  {
+    "id": "cmu-management-it",
+    "university_id": "cmu",
+    "university_en": "Chiang Mai University",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "programme_en": "Modern Management and Information Technology",
+    "programme_th": "การจัดการสมัยใหม่และเทคโนโลยีสารสนเทศ",
+    "official_title": "Bachelor of Science Program in Modern Management and Information Technology",
+    "faculty_or_college": "College of Arts, Media and Technology",
+    "campus": "Chiang Mai",
+    "province": "Chiang Mai",
+    "region": "north",
+    "programme_format": "bilingual",
+    "teaching_language": "th_en",
+    "language_evidence": "programme_statement",
+    "interest_tags": [
+      "business",
+      "technology",
+      "data"
+    ],
+    "summary_th": "สำรวจการจัดการธุรกิจและระบบข้อมูล",
+    "suggested_project_th": "สร้างเว็บเลือกเครื่องมือจัดการร้านจำลอง",
+    "programme_url": "https://www.camt.cmu.ac.th/en/courses-admissions/bachelor-modern-management-and-information-technology/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "cmu-mmit",
+      "location": "cmu-contact",
+      "language": "cmu-mmit"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Bilingual label follows the page overview. Linked curriculum documents include multiple formats and revisions."
+    ]
+  },
+  {
+    "id": "psu-digital-engineering",
+    "university_id": "psu",
+    "university_en": "Prince of Songkla University",
+    "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+    "programme_en": "Digital Engineering",
+    "programme_th": "วิศวกรรมดิจิทัล",
+    "official_title": "Bachelor of Engineering in Digital Engineering (International Program)",
+    "faculty_or_college": "College of Computing",
+    "campus": "Phuket",
+    "province": "Phuket",
+    "region": "south",
+    "programme_format": "international",
+    "teaching_language": "unknown",
+    "language_evidence": "not_established",
+    "interest_tags": [
+      "technology",
+      "data"
+    ],
+    "summary_th": "สำรวจซอฟต์แวร์ เครือข่าย และระบบดิจิทัล",
+    "suggested_project_th": "สร้างเว็บแนะนำชุดอุปกรณ์อัจฉริยะภายใต้งบสมมติ",
+    "programme_url": "https://computing.psu.ac.th/th/b-eng-digital-engineer-international-program/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "psu-de",
+      "location": "psu-location",
+      "language": null
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "International format is explicit; English instruction is not assumed. Source distinguishes student cohorts 67 onwards and 62–66."
+    ]
+  },
+  {
+    "id": "psu-digital-business",
+    "university_id": "psu",
+    "university_en": "Prince of Songkla University",
+    "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+    "programme_en": "Digital Business",
+    "programme_th": "ธุรกิจดิจิทัล",
+    "official_title": "Bachelor of Science in Digital Business (International Program)",
+    "faculty_or_college": "College of Computing",
+    "campus": "Phuket",
+    "province": "Phuket",
+    "region": "south",
+    "programme_format": "international",
+    "teaching_language": "unknown",
+    "language_evidence": "not_established",
+    "interest_tags": [
+      "business",
+      "technology",
+      "data"
+    ],
+    "summary_th": "สำรวจธุรกิจดิจิทัล การตลาด และการวิเคราะห์ข้อมูล",
+    "suggested_project_th": "สร้างเว็บแนะนำช่องทางขายของร้านจำลอง",
+    "programme_url": "https://computing.psu.ac.th/th/b-sc-digital-business-international-program/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "psu-db",
+      "location": "psu-location",
+      "language": null
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "International format is explicit; English instruction is not assumed."
+    ]
+  },
+  {
+    "id": "psu-computing",
+    "university_id": "psu",
+    "university_en": "Prince of Songkla University",
+    "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+    "programme_en": "Computing",
+    "programme_th": "การคอมพิวเตอร์",
+    "official_title": "Bachelor of Science in Computing",
+    "faculty_or_college": "College of Computing",
+    "campus": "Phuket",
+    "province": "Phuket",
+    "region": "south",
+    "programme_format": "thai",
+    "teaching_language": "th",
+    "language_evidence": "directory_label",
+    "interest_tags": [
+      "technology",
+      "data",
+      "design"
+    ],
+    "summary_th": "สำรวจการคอมพิวเตอร์ ข้อมูล และสื่อดิจิทัล",
+    "suggested_project_th": "สร้างเว็บค้นหาแนวคิดโครงงานจากความสนใจ",
+    "programme_url": "https://computing.psu.ac.th/th/b-sc-computing/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "psu-computing",
+      "location": "psu-location",
+      "language": "psu-directory"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": []
+  },
+  {
+    "id": "psu-finance",
+    "university_id": "psu",
+    "university_en": "Prince of Songkla University",
+    "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+    "programme_en": "Finance",
+    "programme_th": "การเงิน",
+    "official_title": "Bachelor of Business Administration (Finance)",
+    "faculty_or_college": "Faculty of Management Sciences",
+    "campus": "Hat Yai",
+    "province": "Songkhla",
+    "region": "south",
+    "programme_format": "thai",
+    "teaching_language": "th",
+    "language_evidence": "directory_label",
+    "interest_tags": [
+      "business",
+      "data"
+    ],
+    "summary_th": "สำรวจการเงินและการตัดสินใจโดยใช้ตัวเลข",
+    "suggested_project_th": "สร้างเว็บคำนวณงบจัดงานโรงเรียนจากข้อมูลสมมติ",
+    "programme_url": "https://www.psu.ac.th/en/?course=A014A004A01911&page=course-detial1",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "psu-finance",
+      "location": "psu-directory",
+      "language": "psu-directory"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Broad interest mapping based on the programme title, not a full curriculum review."
+    ]
+  },
+  {
+    "id": "psu-food-nutrition",
+    "university_id": "psu",
+    "university_en": "Prince of Songkla University",
+    "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+    "programme_en": "Food Science and Nutrition",
+    "programme_th": "วิทยาศาสตร์การอาหารและโภชนาการ",
+    "official_title": "Bachelor of Science (Food Science and Nutrition)",
+    "faculty_or_college": "Faculty of Science and Technology",
+    "campus": "Pattani",
+    "province": "Pattani",
+    "region": "south",
+    "programme_format": "thai",
+    "teaching_language": "th",
+    "language_evidence": "directory_label",
+    "interest_tags": [
+      "science",
+      "food",
+      "people"
+    ],
+    "summary_th": "สำรวจความเชื่อมโยงระหว่างอาหารและโภชนาการ",
+    "suggested_project_th": "สร้างเว็บค้นหาหัวข้อเรียนรู้เรื่องอาหารจากความสนใจ",
+    "programme_url": "https://www.psu.ac.th/en/?course=A075A417A22016&page=course-detial1",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "psu-food",
+      "location": "psu-directory",
+      "language": "psu-directory"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Project suggests educational topic exploration, not individual dietary advice."
+    ]
+  },
+  {
+    "id": "chula-communication-arts",
+    "university_id": "chula",
+    "university_en": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "programme_en": "Communication Arts",
+    "programme_th": "นิเทศศาสตร์",
+    "official_title": "B.A. Communication Arts (Thai Program)",
+    "faculty_or_college": "Faculty of Communication Arts",
+    "campus": "Bangkok",
+    "province": "Bangkok",
+    "region": "central",
+    "programme_format": "thai",
+    "teaching_language": "th",
+    "language_evidence": "programme_statement",
+    "interest_tags": [
+      "communication",
+      "design",
+      "society"
+    ],
+    "summary_th": "สำรวจการสื่อสาร การเล่าเรื่อง และการผลิตสื่อ",
+    "suggested_project_th": "สร้างเว็บช่วยเลือกแนวทางเล่าเรื่องสำหรับแคมเปญ",
+    "programme_url": "https://www.commarts.chula.ac.th/en/bca-program/",
+    "admission_url": "https://www.commarts.chula.ac.th/en/bca-admission/",
+    "admission_reference_year_be": 2569,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "chula-comm",
+      "location": "chula-comm",
+      "language": "chula-comm"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Official admission reference below is TCAS69, not TCAS70."
+    ]
+  },
+  {
+    "id": "chula-psychology",
+    "university_id": "chula",
+    "university_en": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "programme_en": "Psychology",
+    "programme_th": "จิตวิทยา",
+    "official_title": "Bachelor of Science in Psychology",
+    "faculty_or_college": "Faculty of Psychology",
+    "campus": "Bangkok",
+    "province": "Bangkok",
+    "region": "central",
+    "programme_format": "thai",
+    "teaching_language": "th",
+    "language_evidence": "programme_statement",
+    "interest_tags": [
+      "people",
+      "science",
+      "society"
+    ],
+    "summary_th": "สำรวจพฤติกรรมมนุษย์และการวิจัยทางจิตวิทยา",
+    "suggested_project_th": "สร้างเว็บค้นหาหัวข้อทดลองเรียนรู้เรื่องพฤติกรรม",
+    "programme_url": "https://www.psy.chula.ac.th/en/undergraduate/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "chula-psych",
+      "location": "chula-psych",
+      "language": "chula-psych"
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Distinct from the international Psychological Science programme."
+    ]
+  },
+  {
+    "id": "ku-environmental-engineering",
+    "university_id": "ku",
+    "university_en": "Kasetsart University",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "programme_en": "Environmental Engineering",
+    "programme_th": "วิศวกรรมสิ่งแวดล้อม",
+    "official_title": "Bachelor of Engineering in Environmental Engineering",
+    "faculty_or_college": "Faculty of Engineering",
+    "campus": "Bangkok department location",
+    "province": "Bangkok",
+    "region": "central",
+    "programme_format": "unknown",
+    "teaching_language": "unknown",
+    "language_evidence": "not_established",
+    "interest_tags": [
+      "environment",
+      "science",
+      "technology"
+    ],
+    "summary_th": "สำรวจการจัดการน้ำ ของเสีย และมลพิษ",
+    "suggested_project_th": "สร้างเว็บแนะนำหัวข้อโครงงานสิ่งแวดล้อมในโรงเรียน",
+    "programme_url": "https://eve.eng.ku.ac.th/eve/undergraduate-programs-th/",
+    "admission_url": null,
+    "admission_reference_year_be": null,
+    "admission_criteria": null,
+    "tuition_total_thb": null,
+    "source_refs": {
+      "programme": "ku-env",
+      "location": "ku-location",
+      "language": null
+    },
+    "checked_on": "2026-10-07",
+    "data_notes": [
+      "Website language does not establish teaching language.",
+      "Location is the department address; no current-year intake or full campus schedule is asserted."
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UniPath Thailand</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+<main>
+  <!-- Day 3: replace the audience, heading and introduction with your own brief.
+       วันที่ 3: เลือกกลุ่มผู้ใช้และเขียนหัวข้อกับคำเกริ่นของตนเอง -->
+  <header>
+    <p class="eyebrow">PYTHON · THAI UNIVERSITY EXPLORER</p>
+    <h1>Find a path worth exploring.</h1>
+    <p>ค้นหาเส้นทางมหาวิทยาลัยจากความสนใจของเรา</p>
+    <p>Explore Thai university programmes by interest. Matches describe shared interests, not admission chances.</p>
+    <p><a href="/portfolio">Start from a portfolio PDF / เริ่มจากแฟ้มผลงาน</a></p>
+  </header>
+  <aside class="notice" role="status"><strong>Student skeleton / โครงงานเริ่มต้น</strong>
+    <p>Complete the TODOs (see TASKS.md). Until then, searches will not give meaningful matches. / เติม TODO ให้ครบก่อน ผลจากโครงเริ่มต้นยังไม่ใช่คำแนะนำ</p></aside>
+  <!-- The contract (API.md): keep id="finder-form", id="status", id="results" and every name="...".
+       Without JavaScript the form opens the raw JSON from the API, which is how Day 2 uses it.
+       สัญญา (API.md): ห้ามเปลี่ยน id และ name ของช่อง ถ้าไม่มี JavaScript ฟอร์มจะเปิด JSON ดิบจาก API -->
+  <form id="finder-form" method="get" action="/api/programmes">
+    <fieldset>
+      <legend>Your interests / ความสนใจ</legend>
+      <div class="interest-grid">
+        <label><input type="checkbox" name="interests" value="technology"> Technology / เทคโนโลยี</label>
+        <label><input type="checkbox" name="interests" value="design"> Design / การออกแบบ</label>
+        <label><input type="checkbox" name="interests" value="games"> Games / เกม</label>
+        <label><input type="checkbox" name="interests" value="business"> Business / ธุรกิจ</label>
+        <label><input type="checkbox" name="interests" value="data"> Data and numbers / ข้อมูลและตัวเลข</label>
+        <label><input type="checkbox" name="interests" value="science"> Science / วิทยาศาสตร์</label>
+        <label><input type="checkbox" name="interests" value="food"> Food / อาหาร</label>
+        <label><input type="checkbox" name="interests" value="people"> People / ผู้คน</label>
+        <label><input type="checkbox" name="interests" value="society"> Society / สังคม</label>
+        <label><input type="checkbox" name="interests" value="communication"> Communication / การสื่อสาร</label>
+        <label><input type="checkbox" name="interests" value="environment"> Environment / สิ่งแวดล้อม</label>
+        <label><input type="checkbox" name="interests" value="health"> Health and care / สุขภาพและการดูแล</label>
+        <label><input type="checkbox" name="interests" value="education"> Teaching and learning / การสอนและการเรียนรู้</label>
+        <label><input type="checkbox" name="interests" value="arts"> Arts and performance / ศิลปะและการแสดง</label>
+      </div>
+    </fieldset>
+    <div class="filters">
+      <label>Region / ภูมิภาค
+        <select name="region">
+          <option value="any">Any / ทั้งหมด</option>
+          <option value="central">Central, including Bangkok / ภาคกลาง รวมกรุงเทพฯ</option>
+          <option value="north">North / ภาคเหนือ</option>
+          <option value="south">South / ภาคใต้</option>
+          <option value="northeast">Northeast / ภาคตะวันออกเฉียงเหนือ</option>
+          <option value="east">East / ภาคตะวันออก</option>
+          <option value="west">West / ภาคตะวันตก</option>
+        </select>
+      </label>
+      <label>Language / ภาษาที่สอน
+        <select name="language">
+          <option value="any">Any / ทั้งหมด</option>
+          <option value="thai">Thai including bilingual / ไทย รวมสองภาษา</option>
+          <option value="international">English including bilingual / อังกฤษ รวมสองภาษา</option>
+          <option value="bilingual">Bilingual / สองภาษา</option>
+          <option value="unknown">Unresolved / ยังไม่ยืนยัน</option>
+        </select>
+      </label>
+    </div>
+    <label class="unknown"><input type="checkbox" name="include_unknown" value="yes" checked> Include unresolved language records / รวมรายการที่ยังไม่ยืนยันภาษา</label>
+    <p class="small">English or Thai preferences include bilingual records. Unresolved records keep their unresolved label. / ตัวกรองไทยหรืออังกฤษรวมสองภาษา ข้อมูลที่ยังไม่ยืนยันจะคงป้ายไว้</p>
+    <button type="submit">Find programmes / ค้นหาหลักสูตร</button>
+    <a class="reset" href="/">Reset / เริ่มใหม่</a>
+  </form>
+  <section aria-labelledby="results-title">
+    <h2 id="results-title">Results / ผลลัพธ์</h2>
+    <p id="status" role="status" aria-live="polite">Choose your interests, then search. / เลือกความสนใจแล้วกดค้นหา</p>
+    <div id="results" class="results"></div>
+  </section>
+  <!-- The card design: app.js copies this card for every result and fills each data-field with that API field.
+       data-field="x": the text becomes field x (an element with no value is removed, unless it has data-empty).
+       data-link="x": the link goes to field x (removed when x is null). data-show="field:value": kept only when it matches.
+       Paste a designed card here (for example from Stitch), delete its sample text and mark where each field goes.
+       แบบการ์ด: app.js คัดลอกการ์ดนี้ให้ทุกผลลัพธ์ และใส่ค่าฟิลด์ตาม data-field วางการ์ดที่ออกแบบไว้ ลบข้อความตัวอย่าง แล้วระบุตำแหน่งฟิลด์ -->
+  <template id="card-template">
+    <article class="programme">
+      <p class="eyebrow" data-field="university_en"></p>
+      <h3 data-field="programme_en"></h3>
+      <p><span data-field="programme_th"></span> · <span data-field="university_th"></span></p>
+      <p class="small"><span data-field="province" data-empty="Province not mapped"></span> · <span data-field="programme_format"></span> · <span data-field="teaching_language"></span></p>
+      <p class="notice small" data-show="teaching_language:unknown">Language unresolved / ยังไม่ยืนยันภาษา — inclusion is not a confirmed language match.</p>
+      <p data-field="summary_en"></p>
+      <p data-field="summary_th"></p>
+      <p>Shared interests / ความสนใจที่ตรง: <span data-field="matched_interests" data-empty="No interest filter selected / ไม่ได้จำกัดความสนใจ"></span></p>
+      <p class="small" data-field="data_notes"></p>
+      <a data-link="programme_url" target="_blank" rel="noopener noreferrer">Official programme / แหล่งทางการ ↗</a>
+      <a data-link="admission_url" target="_blank" rel="noopener noreferrer">Application reference / อ้างอิงการสมัคร <span data-field="admission_reference_year_be"></span> ↗</a>
+    </article>
+  </template>
+  <footer>
+    <p>The built-in sample has 16 curated public-university programmes in central, northern and southern Thailand. An optional MyTCAS classroom pack covers many more. Interest tags and summaries are teaching suggestions. / ตัวอย่างในโครงงานมี 16 หลักสูตรที่คัดเลือก ชุด MyTCAS เพิ่มเติมครอบคลุมมากขึ้น แท็กและคำสรุปเป็นข้อเสนอการสอน</p>
+    <a href="https://mytcas.com/" target="_blank" rel="noopener noreferrer">Official MyTCAS reference ↗</a>
+  </footer>
+</main>
+</body>
+</html>

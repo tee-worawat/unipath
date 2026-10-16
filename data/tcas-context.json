@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-10-07",
+  "reference_academic_year_be": 2570,
+  "reference_academic_year_ce": 2027,
+  "official_url": "https://mytcas.com/",
+  "purpose": "General TCAS vocabulary for the discovery website, not programme-specific requirements.",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Portfolio",
+      "name_th": "แฟ้มสะสมผลงาน",
+      "application_reference": "university",
+      "summary_th": "สำรวจประกาศและรายละเอียดการสมัครที่มหาวิทยาลัยกำหนด"
+    },
+    {
+      "round": 2,
+      "name": "Quota",
+      "name_th": "โควตา",
+      "application_reference": "university",
+      "summary_th": "สำรวจโครงการและเงื่อนไขเฉพาะจากประกาศของมหาวิทยาลัย"
+    },
+    {
+      "round": 3,
+      "name": "Admission",
+      "name_th": "แอดมิชชัน",
+      "application_reference": "mytcas",
+      "summary_th": "สำรวจหลักสูตรและเกณฑ์ที่ประกาศสำหรับการสมัครผ่านระบบ MyTCAS"
+    },
+    {
+      "round": 4,
+      "name": "Direct Admission",
+      "name_th": "รับตรงอิสระ",
+      "application_reference": "university",
+      "summary_th": "ตรวจสอบหลักสูตรและที่นั่งที่มหาวิทยาลัยประกาศเปิดรับ"
+    }
+  ],
+  "applicability_note": "Do not attach all four rounds to every programme. Formats, requirements and routes are programme- and year-specific. These 15-year-old learners may apply in a later year.",
+  "eligibility_rule": null,
+  "deadlines": null
+}

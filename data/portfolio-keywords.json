@@ -1,0 +1,16 @@
+{
+  "technology": ["coding", "program", "python", "robot", "app ", "website", "computer", "electronics", "เขียนโปรแกรม", "โค้ด", "หุ่นยนต์", "คอมพิวเตอร์", "แอป"],
+  "design": ["design", "sketch", "poster", "logo", "drawing", "pixel art", "ออกแบบ", "โปสเตอร์", "วาด"],
+  "games": ["game", "level", "game jam", "board game", "เกม"],
+  "business": ["business", "sell", "sold", "customer", "profit", "market stall", "price", "ธุรกิจ", "ขาย", "ลูกค้า", "กำไร"],
+  "data": ["data", "survey", "graph", "chart", "spreadsheet", "statistics", "measure", "ข้อมูล", "สำรวจ", "กราฟ", "สถิติ"],
+  "science": ["science", "experiment", "laboratory", "chemistry", "biology", "physics", "วิทยาศาสตร์", "ทดลอง", "ชีววิทยา", "เคมี"],
+  "food": ["food", "cook", "recipe", "baking", "kitchen", "dessert", "อาหาร", "ทำอาหาร", "สูตร", "ขนม"],
+  "people": ["volunteer", "helped", "community", "elderly", "อาสา", "ช่วยเหลือ", "ชุมชน", "ผู้สูงอายุ"],
+  "society": ["village", "culture", "history", "rights", "society", "หมู่บ้าน", "วัฒนธรรม", "ประวัติศาสตร์", "สังคม"],
+  "communication": ["video", "presentation", "social media", "interview", "article", "podcast", "วิดีโอ", "นำเสนอ", "สื่อสาร", "สัมภาษณ์"],
+  "environment": ["environment", "recycl", "mangrove", "plastic", "garden", "water quality", "tree", "สิ่งแวดล้อม", "รีไซเคิล", "ป่าชายเลน", "ขยะ", "ต้นไม้"],
+  "health": ["health", "first aid", "clinic", "nurse", "caring for", "exercise", "สุขภาพ", "ปฐมพยาบาล", "อนามัย", "ดูแล"],
+  "education": ["tutor", "teach", "younger students", "lesson", "reading club", "สอน", "ติว", "น้อง", "ห้องเรียน"],
+  "arts": ["music", "dance", "theatre", "band", "perform", "painting", "ดนตรี", "การแสดง", "ร้องเพลง", "รำ"]
+}

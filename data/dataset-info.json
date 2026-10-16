@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "title": "UniPath Thailand bootcamp programme dataset",
+  "status": "teaching_dataset_with_documented_limits",
+  "prepared_on": "2026-10-07",
+  "programme_count": 16,
+  "university_count": 5,
+  "intended_use": "Programme discovery, Python filtering and explainable preference matching.",
+  "course_status": "Proposed 4-day, 12-hour bootcamp. Related source course: 06.A Web Master; this dataset is a new resource, not an existing Notion lesson.",
+  "source_course_url": "https://app.notion.com/p/3b07714a9711813c982ec18b6dc34ed3",
+  "coverage": "Curated public-university examples in central, northern and southern Thailand. Not exhaustive or representative. No northeastern or private-university coverage in version 1.",
+  "authoritative_data_file": "programmes.json",
+  "display_name_policy": "programme_en, programme_th, university_en, university_th and faculty_or_college are concise editorial display labels. official_title preserves a title observed in the cited source. Display labels are not guaranteed official translations.",
+  "factual_fields": [
+    "official_title",
+    "programme_url",
+    "campus",
+    "province",
+    "programme_format",
+    "teaching_language",
+    "language_evidence",
+    "source_refs",
+    "checked_on"
+  ],
+  "editorial_fields": [
+    "programme_en",
+    "programme_th",
+    "university_en",
+    "university_th",
+    "faculty_or_college",
+    "region",
+    "interest_tags",
+    "summary_th",
+    "suggested_project_th"
+  ],
+  "matching_policy": "Interest tags and summaries are teacher-authored proposals. A match means preference overlap only. Location and language are filters, not proof of admission eligibility. Do not use zero matches to conclude there are no suitable programmes in Thailand.",
+  "unknown_policy": "null means not collected; unknown means not established or unresolved. Neither means zero, false, free tuition, no requirement or eligible.",
+  "language_policy": "en/th identify main instruction using the stated evidence basis. th_en means bilingual. International format is not automatically English. Unknown languages must remain visible as unknown, with an optional include-unknown filter.",
+  "admission_policy": "No admission criteria, test-score thresholds, chances, deadlines or total tuition have been extracted. Programme admission_url is an official reference only. A dated historical reference must display its year. Generic TCAS context does not establish which rounds any programme accepts.",
+  "interest_tags": {
+    "technology": {
+      "en": "Technology",
+      "th": "เทคโนโลยี"
+    },
+    "design": {
+      "en": "Design",
+      "th": "การออกแบบ"
+    },
+    "games": {
+      "en": "Games",
+      "th": "เกม"
+    },
+    "business": {
+      "en": "Business",
+      "th": "ธุรกิจ"
+    },
+    "data": {
+      "en": "Data and numbers",
+      "th": "ข้อมูลและตัวเลข"
+    },
+    "science": {
+      "en": "Science",
+      "th": "วิทยาศาสตร์"
+    },
+    "food": {
+      "en": "Food",
+      "th": "อาหาร"
+    },
+    "people": {
+      "en": "People",
+      "th": "ผู้คน"
+    },
+    "society": {
+      "en": "Society",
+      "th": "สังคม"
+    },
+    "communication": {
+      "en": "Communication",
+      "th": "การสื่อสาร"
+    },
+    "environment": {
+      "en": "Environment",
+      "th": "สิ่งแวดล้อม"
+    },
+    "health": {
+      "en": "Health and care",
+      "th": "สุขภาพและการดูแล"
+    },
+    "education": {
+      "en": "Teaching and learning",
+      "th": "การสอนและการเรียนรู้"
+    },
+    "arts": {
+      "en": "Arts and performance",
+      "th": "ศิลปะและการแสดง"
+    }
+  },
+  "regions": {
+    "central": {
+      "en": "Central, including Bangkok",
+      "th": "ภาคกลาง รวมกรุงเทพฯ"
+    },
+    "north": {
+      "en": "North",
+      "th": "ภาคเหนือ"
+    },
+    "south": {
+      "en": "South",
+      "th": "ภาคใต้"
+    },
+    "northeast": {
+      "en": "Northeast",
+      "th": "ภาคตะวันออกเฉียงเหนือ"
+    },
+    "east": {
+      "en": "East",
+      "th": "ภาคตะวันออก"
+    },
+    "west": {
+      "en": "West",
+      "th": "ภาคตะวันตก"
+    }
+  },
+  "programme_formats": [
+    "thai",
+    "international",
+    "bilingual",
+    "unknown"
+  ],
+  "teaching_languages": [
+    "th",
+    "en",
+    "th_en",
+    "unknown"
+  ],
+  "sources": [
+    {
+      "id": "muic-directory",
+      "title": "MUIC undergraduate programme directory",
+      "url": "https://muic.mahidol.ac.th/en/programs/?degree=undergraduate",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme catalogue",
+        "Salaya location in Nakhon Pathom",
+        "subject descriptions"
+      ],
+      "caveat": "Directory mixes undergraduate, graduate and preparation courses. Only identified bachelor programmes were selected."
+    },
+    {
+      "id": "muic-language",
+      "title": "MUIC institutional language information",
+      "url": "https://muic.mahidol.ac.th/th/news/muics-global-connection/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "English is the college main language of instruction"
+      ],
+      "caveat": "Published 2025-04-10. College-level evidence, not a promise that every course uses only English."
+    },
+    {
+      "id": "muic-admission",
+      "title": "MUIC regular undergraduate applicants",
+      "url": "https://muic.mahidol.ac.th/en/study-at-muic/admissions-requirement/undergraduate-admission/regular-applicants/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "official undergraduate application information"
+      ],
+      "caveat": "General application reference; criteria have not been extracted into this dataset."
+    },
+    {
+      "id": "muic-cs",
+      "title": "MUIC Computer Science",
+      "url": "https://muic.mahidol.ac.th/en/programs/science/major/major-in-computer-science",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "international format",
+        "bachelor level",
+        "Salaya campus"
+      ],
+      "caveat": null
+    },
+    {
+      "id": "muic-design",
+      "title": "MUIC Communication Design",
+      "url": "https://muic.mahidol.ac.th/en/programs/communication-design-and-media-communication/major/communication-design",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "international format",
+        "bachelor level",
+        "Salaya campus"
+      ],
+      "caveat": "A dated portfolio-requirement link exists, but the linked requirements were not reviewed or extracted."
+    },
+    {
+      "id": "muic-food",
+      "title": "MUIC Food Science and Technology",
+      "url": "https://muic.mahidol.ac.th/en/programs/science/major/major-in-food-science-and-technology",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "international format",
+        "bachelor level",
+        "Salaya campus"
+      ],
+      "caveat": null
+    },
+    {
+      "id": "muic-irga",
+      "title": "MUIC International Relations and Global Affairs",
+      "url": "https://muic.mahidol.ac.th/en/programs/social-science/major/major-in-international-relations-and-global-affairs",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "international format",
+        "bachelor level",
+        "Salaya campus"
+      ],
+      "caveat": null
+    },
+    {
+      "id": "cmu-contact",
+      "title": "CAMT contact and location",
+      "url": "https://www.camt.cmu.ac.th/en/contact/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "college location in Chiang Mai"
+      ],
+      "caveat": null
+    },
+    {
+      "id": "cmu-se",
+      "title": "CAMT Software Engineering",
+      "url": "https://www.camt.cmu.ac.th/en/courses-admissions/bachelor-software-engineering/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "international format",
+        "English instruction",
+        "software development and testing"
+      ],
+      "caveat": "Some application content on CAMT pages is older than the current admissions cycle. No dates or score thresholds were imported."
+    },
+    {
+      "id": "cmu-game",
+      "title": "CAMT Digital Game",
+      "url": "https://www.camt.cmu.ac.th/en/courses-admissions/dg-bachelor-of-science-program-in-digital-game/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "Thai and English instruction",
+        "game design and programming"
+      ],
+      "caveat": "Page says curriculum is being updated. A separate 2026 CAMT slide deck labels this a Thai programme; both observations are retained in research notes. No current-year admission availability is asserted."
+    },
+    {
+      "id": "cmu-animation",
+      "title": "CAMT Animation and Visual Effects",
+      "url": "https://www.camt.cmu.ac.th/en/courses-admissions/ani-bachelor-of-science-program-in-animation-and-visual-effects/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme existence",
+        "animation and storytelling"
+      ],
+      "caveat": "Same page conflicts on degree title and language: headline says science/Thai, detail says arts/Thai-English. Degree and language are deliberately unknown in the learner dataset."
+    },
+    {
+      "id": "cmu-mmit",
+      "title": "CAMT Modern Management and Information Technology",
+      "url": "https://www.camt.cmu.ac.th/en/courses-admissions/bachelor-modern-management-and-information-technology/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "Thai and English instruction",
+        "management and information technology"
+      ],
+      "caveat": "Page links both ordinary and international curriculum documents. Dataset reflects the bilingual description displayed on the page, without asserting a separate international intake."
+    },
+    {
+      "id": "psu-directory",
+      "title": "PSU Thai programme directory",
+      "url": "https://www.psu.ac.th/en/?page=course&program=th",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "bachelor level",
+        "Thai programme labels",
+        "faculty and campus assignments"
+      ],
+      "caveat": "Thai programme is an institutional format label; language filtering is based on that label, not a review of every module."
+    },
+    {
+      "id": "psu-location",
+      "title": "PSU College of Computing",
+      "url": "https://computing.psu.ac.th/th/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "College of Computing location in Phuket"
+      ],
+      "caveat": null
+    },
+    {
+      "id": "psu-de",
+      "title": "PSU Digital Engineering",
+      "url": "https://computing.psu.ac.th/th/b-eng-digital-engineer-international-program/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "international format",
+        "software, networks and smart systems"
+      ],
+      "caveat": "International format is verified; exact instructional language was not explicitly established from the reviewed page."
+    },
+    {
+      "id": "psu-db",
+      "title": "PSU Digital Business",
+      "url": "https://computing.psu.ac.th/th/b-sc-digital-business-international-program/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "international format",
+        "business analytics and digital marketing"
+      ],
+      "caveat": "International format is verified; exact instructional language was not explicitly established from the reviewed page."
+    },
+    {
+      "id": "psu-computing",
+      "title": "PSU Computing",
+      "url": "https://computing.psu.ac.th/th/b-sc-computing/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "computing, AI/data and digital-media tracks"
+      ],
+      "caveat": null
+    },
+    {
+      "id": "psu-finance",
+      "title": "PSU Finance",
+      "url": "https://www.psu.ac.th/en/?course=A014A004A01911&page=course-detial1",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "Faculty of Management Sciences",
+        "Hat Yai campus"
+      ],
+      "caveat": "Programme profile is sparse. Interest tags are broad editorial suggestions based on the programme title."
+    },
+    {
+      "id": "psu-food",
+      "title": "PSU Food Science and Nutrition",
+      "url": "https://www.psu.ac.th/en/?course=A075A417A22016&page=course-detial1",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "Faculty of Science and Technology",
+        "Pattani campus"
+      ],
+      "caveat": "Interest tags are broad editorial suggestions based on the programme title."
+    },
+    {
+      "id": "chula-comm",
+      "title": "Chulalongkorn Communication Arts Thai programme",
+      "url": "https://www.commarts.chula.ac.th/en/bca-program/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "Thai instruction",
+        "communication and media fields"
+      ],
+      "caveat": null
+    },
+    {
+      "id": "chula-comm-admission",
+      "title": "Communication Arts application reference",
+      "url": "https://www.commarts.chula.ac.th/en/bca-admission/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "official application reference"
+      ],
+      "caveat": "Reviewed page is explicitly TCAS69. Link is labelled historical in the dataset, not current TCAS70 guidance."
+    },
+    {
+      "id": "chula-psych",
+      "title": "Chulalongkorn undergraduate psychology",
+      "url": "https://www.psy.chula.ac.th/en/undergraduate/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "Thai psychology programme",
+        "human behaviour research",
+        "faculty location in Bangkok"
+      ],
+      "caveat": "Includes a distinct international Psychological Science programme. This record selects only the Thai Psychology programme."
+    },
+    {
+      "id": "ku-env",
+      "title": "Kasetsart Environmental Engineering",
+      "url": "https://eve.eng.ku.ac.th/eve/undergraduate-programs-th/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "programme title",
+        "environmental engineering subject areas"
+      ],
+      "caveat": "Exact teaching language and programme format were not established. Do not infer Thai instruction from the website language."
+    },
+    {
+      "id": "ku-location",
+      "title": "Kasetsart Environmental Engineering department",
+      "url": "https://eve.eng.ku.ac.th/eve/th/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "department address in Bangkok"
+      ],
+      "caveat": "Department location is used for study-location exploration; campus arrangements should be confirmed with the department."
+    },
+    {
+      "id": "tcas",
+      "title": "MyTCAS official admissions reference",
+      "url": "https://mytcas.com/",
+      "checked_on": "2026-10-07",
+      "access": "page_content_reviewed",
+      "supports": [
+        "four TCAS round names",
+        "application-system responsibility",
+        "TCAS70 academic-year label"
+      ],
+      "caveat": "Reference snapshot checked on 2026-10-07, not a guarantee of future-year rules. Programme participation must be verified separately."
+    }
+  ],
+  "language_options": [
+    {
+      "value": "any",
+      "en": "Any",
+      "th": "ทั้งหมด"
+    },
+    {
+      "value": "th",
+      "en": "Thai including bilingual",
+      "th": "ไทย รวมสองภาษา"
+    },
+    {
+      "value": "en",
+      "en": "English including bilingual",
+      "th": "อังกฤษ รวมสองภาษา"
+    },
+    {
+      "value": "th_en",
+      "en": "Bilingual",
+      "th": "สองภาษา"
+    },
+    {
+      "value": "unknown",
+      "en": "Unresolved",
+      "th": "ยังไม่ยืนยัน"
+    }
+  ],
+  "vocabulary_note": "Regions northeast/east/west and tags health/education/arts support the optional MyTCAS classroom pack. The 16 curated records do not use them, so filtering by them returns no curated results. Regions are a simplified six-part teaching grouping with Bangkok in central, not an official classification."
+}

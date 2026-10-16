@@ -1,0 +1,3 @@
+# Day 1 notebooks in VS Code. The website itself needs only requirements.txt.
+-r requirements.txt
+ipykernel

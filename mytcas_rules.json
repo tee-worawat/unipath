@@ -1,0 +1,544 @@
+{
+ "_about": "Editorial rules for turning the public MyTCAS course index into UniPath records. Prepared 2026-10-12. Province mapping uses campus names and widely known main-campus locations; it was not verified against each university, and uncertain campuses are null. Interest tags are teaching suggestions from field groups and keywords, not university categories. Edit and re-run fetch_mytcas.py to improve them.",
+ "campus_province": {
+  "001/01": "Bangkok",
+  "002/01": "Bangkok",
+  "002/02": "Nakhon Pathom",
+  "002/03": "Chon Buri",
+  "002/04": "Sakon Nakhon",
+  "002/05": "Suphan Buri",
+  "003/01": "Khon Kaen",
+  "003/02": "Nong Khai",
+  "004/01": "Chiang Mai",
+  "005/01": "Bangkok",
+  "005/02": "Pathum Thani",
+  "005/03": "Chon Buri",
+  "005/04": "Lampang",
+  "006/01": "Nakhon Pathom",
+  "006/02": "Kanchanaburi",
+  "006/03": "Nakhon Sawan",
+  "006/04": "Amnat Charoen",
+  "008/01": "Bangkok",
+  "008/02": "Nakhon Pathom",
+  "008/03": "Phetchaburi",
+  "008/04": "Nonthaburi",
+  "009/01": "Bangkok",
+  "009/02": "Nakhon Nayok",
+  "010/01": "Songkhla",
+  "010/02": "Pattani",
+  "010/03": "Phuket",
+  "010/04": "Surat Thani",
+  "010/05": "Trang",
+  "013/01": "Chiang Mai",
+  "013/02": "Phrae",
+  "013/03": "Chumphon",
+  "014/01": "Bangkok",
+  "014/02": "Bangkok",
+  "014/03": "Ratchaburi",
+  "015/01": "Bangkok",
+  "015/02": "Prachin Buri",
+  "015/03": "Rayong",
+  "016/01": "Bangkok",
+  "016/02": "Chumphon",
+  "017/01": "Nakhon Ratchasima",
+  "018/01": "Ubon Ratchathani",
+  "019/01": "Chon Buri",
+  "019/02": "Chanthaburi",
+  "019/03": "Sa Kaeo",
+  "020/01": "Phitsanulok",
+  "021/01": "Maha Sarakham",
+  "022/01": "Songkhla",
+  "022/02": "Phatthalung",
+  "023/01": "Nakhon Si Thammarat",
+  "024/01": "Chiang Rai",
+  "025/01": "Narathiwat",
+  "026/01": "Nakhon Phanom",
+  "028/01": "Kalasin",
+  "032/01": "Bangkok",
+  "034/01": "Bangkok",
+  "035/01": "Bangkok",
+  "036/01": "Nakhon Pathom",
+  "036/02": null,
+  "036/03": null,
+  "036/04": "Khon Kaen",
+  "036/05": "Chiang Mai",
+  "036/06": "Nakhon Si Thammarat",
+  "036/07": "Roi Et",
+  "036/08": "Loei",
+  "036/10": "Yasothon",
+  "036/11": "Kalasin",
+  "054/01": "Bangkok",
+  "054/02": "Chon Buri",
+  "054/03": "Khon Kaen",
+  "056/01": "Bangkok",
+  "059/01": "Nakhon Pathom",
+  "068/01": "Pathum Thani",
+  "102/01": "Kanchanaburi",
+  "102/02": null,
+  "102/03": "Buriram",
+  "103/01": "Bangkok",
+  "112/01": "Pathum Thani",
+  "115/01": "Bangkok",
+  "117/01": "Bangkok",
+  "129/01": "Saraburi",
+  "129/02": "Bangkok",
+  "130/01": "Songkhla",
+  "146/01": "Bangkok",
+  "146/02": "Samut Prakan",
+  "150/01": "Bangkok",
+  "152/01": "Phitsanulok",
+  "153/01": "Pathum Thani",
+  "164/01": "Songkhla",
+  "165/01": "Bangkok",
+  "165/02": "Suphan Buri",
+  "165/03": "Nakhon Nayok",
+  "165/04": "Trang",
+  "165/05": "Lampang",
+  "165/06": "Prachuap Khiri Khan",
+  "166/01": "Bangkok",
+  "166/18": "Ranong",
+  "166/24": "Udon Thani",
+  "166/25": "Nakhon Pathom",
+  "166/26": "Samut Songkhram",
+  "171/01": "Ubon Ratchathani",
+  "172/01": "Nakhon Sawan",
+  "174/01": "Bangkok",
+  "177/01": "Bangkok",
+  "179/01": "Phetchaburi",
+  "180/02": "Bangkok",
+  "181/01": "Bangkok",
+  "191/01": "Pathum Thani",
+  "191/02": "Pathum Thani",
+  "192/01": "Bangkok",
+  "193/01": "Chon Buri",
+  "193/02": "Bangkok",
+  "193/03": "Chanthaburi",
+  "193/04": "Bangkok",
+  "194/03": "Bangkok",
+  "194/05": "Bangkok",
+  "194/07": "Bangkok",
+  "194/12": "Bangkok",
+  "195/01": "Nakhon Pathom",
+  "195/02": "Prachuap Khiri Khan",
+  "195/03": "Bangkok",
+  "195/04": "Bangkok",
+  "199/01": "Nakhon Ratchasima",
+  "199/02": "Surin",
+  "199/03": "Khon Kaen",
+  "199/05": "Sakon Nakhon",
+  "216/01": "Bangkok",
+  "218/01": "Bangkok",
+  "265/01": "Bangkok",
+  "905/01": "Lampang",
+  "905/02": "Chiang Mai",
+  "910/01": "Ubon Ratchathani",
+  "910/02": "Udon Thani",
+  "911/01": "Pathum Thani",
+  "916/01": "Nakhon Ratchasima",
+  "917/01": "Tak",
+  "918/01": "Nonthaburi",
+  "918/02": null,
+  "921/01": "Samut Prakan",
+  "921/02": "Bangkok",
+  "922/01": "Nakhon Ratchasima",
+  "923/01": "Bangkok",
+  "931/01": "Bangkok"
+ },
+ "province_region": {
+  "Chiang Mai": "north",
+  "Chiang Rai": "north",
+  "Lampang": "north",
+  "Lamphun": "north",
+  "Mae Hong Son": "north",
+  "Nan": "north",
+  "Phayao": "north",
+  "Phrae": "north",
+  "Uttaradit": "north",
+  "Phitsanulok": "north",
+  "Sukhothai": "north",
+  "Phichit": "north",
+  "Phetchabun": "north",
+  "Kamphaeng Phet": "north",
+  "Nakhon Sawan": "north",
+  "Uthai Thani": "north",
+  "Khon Kaen": "northeast",
+  "Nong Khai": "northeast",
+  "Sakon Nakhon": "northeast",
+  "Nakhon Ratchasima": "northeast",
+  "Ubon Ratchathani": "northeast",
+  "Maha Sarakham": "northeast",
+  "Nakhon Phanom": "northeast",
+  "Kalasin": "northeast",
+  "Amnat Charoen": "northeast",
+  "Roi Et": "northeast",
+  "Loei": "northeast",
+  "Yasothon": "northeast",
+  "Buriram": "northeast",
+  "Surin": "northeast",
+  "Udon Thani": "northeast",
+  "Si Sa Ket": "northeast",
+  "Chaiyaphum": "northeast",
+  "Mukdahan": "northeast",
+  "Nong Bua Lam Phu": "northeast",
+  "Bueng Kan": "northeast",
+  "Bangkok": "central",
+  "Nakhon Pathom": "central",
+  "Nonthaburi": "central",
+  "Pathum Thani": "central",
+  "Samut Prakan": "central",
+  "Samut Sakhon": "central",
+  "Samut Songkhram": "central",
+  "Suphan Buri": "central",
+  "Nakhon Nayok": "central",
+  "Saraburi": "central",
+  "Ayutthaya": "central",
+  "Ang Thong": "central",
+  "Lopburi": "central",
+  "Sing Buri": "central",
+  "Chai Nat": "central",
+  "Chon Buri": "east",
+  "Rayong": "east",
+  "Chanthaburi": "east",
+  "Trat": "east",
+  "Sa Kaeo": "east",
+  "Prachin Buri": "east",
+  "Chachoengsao": "east",
+  "Kanchanaburi": "west",
+  "Ratchaburi": "west",
+  "Phetchaburi": "west",
+  "Prachuap Khiri Khan": "west",
+  "Tak": "west",
+  "Songkhla": "south",
+  "Pattani": "south",
+  "Phuket": "south",
+  "Surat Thani": "south",
+  "Trang": "south",
+  "Chumphon": "south",
+  "Phatthalung": "south",
+  "Nakhon Si Thammarat": "south",
+  "Narathiwat": "south",
+  "Ranong": "south",
+  "Yala": "south",
+  "Krabi": "south",
+  "Phang Nga": "south",
+  "Satun": "south"
+ },
+ "university_names": {
+  "002": {
+   "en": "Kasetsart University"
+  },
+  "019": {
+   "en": "Burapha University"
+  },
+  "020": {
+   "en": "Naresuan University"
+  },
+  "024": {
+   "en": "Mae Fah Luang University"
+  },
+  "034": {
+   "en": "Ramkhamhaeng University",
+   "th": "มหาวิทยาลัยรามคำแหง"
+  },
+  "102": {
+   "en": "Western University"
+  },
+  "115": {
+   "en": "Saint Louis College"
+  },
+  "910": {
+   "en": "Ratchathani University"
+  },
+  "265": {
+   "en": "Princess Galyani Vadhana Institute of Music"
+  },
+  "922": {
+   "en": "Vongchavalitkul University",
+   "th": "มหาวิทยาลัยวงษ์ชวลิตกุล"
+  }
+ },
+ "university_groups": {
+  "ทปอ.": "cupt_member",
+  "มรภ.": "rajabhat",
+  "มทร.": "rajamangala",
+  "เอกชน": "private"
+ },
+ "programme_types": [
+  {
+   "starts_with": "ภาษาไทย",
+   "programme_format": "thai",
+   "teaching_language": "th",
+   "language_evidence": "mytcas_programme_type"
+  },
+  {
+   "contains": "ภาษาไทย ปกติ",
+   "programme_format": "thai",
+   "teaching_language": "th",
+   "language_evidence": "mytcas_programme_type"
+  },
+  {
+   "contains": "นานาชาติ",
+   "programme_format": "international",
+   "teaching_language": "unknown",
+   "language_evidence": "not_established"
+  },
+  {
+   "contains": "สองภาษา",
+   "programme_format": "bilingual",
+   "teaching_language": "unknown",
+   "language_evidence": "not_established"
+  }
+ ],
+ "group_tags": {
+  "10": [
+   "health",
+   "science"
+  ],
+  "11": [
+   "health",
+   "people"
+  ],
+  "12": [
+   "health",
+   "science"
+  ],
+  "13": [
+   "health",
+   "science"
+  ],
+  "14": [
+   "health",
+   "science"
+  ],
+  "21": [
+   "science"
+  ],
+  "22": [
+   "technology",
+   "data"
+  ],
+  "30": [
+   "technology",
+   "science"
+  ],
+  "40": [
+   "design"
+  ],
+  "50": [
+   "science",
+   "environment"
+  ],
+  "61": [
+   "business"
+  ],
+  "62": [
+   "business",
+   "people"
+  ],
+  "70": [
+   "education",
+   "people"
+  ],
+  "80": [
+   "arts",
+   "design"
+  ],
+  "90": [
+   "society"
+  ]
+ },
+ "keyword_tags": [
+  {
+   "tag": "technology",
+   "en": [
+    "computer",
+    "software",
+    "information technology",
+    "digital",
+    "cyber",
+    "artificial intelligence",
+    "robot"
+   ],
+   "th": [
+    "คอมพิวเตอร์",
+    "ซอฟต์แวร์",
+    "ดิจิทัล",
+    "ปัญญาประดิษฐ์",
+    "หุ่นยนต์"
+   ]
+  },
+  {
+   "tag": "data",
+   "en": [
+    "data",
+    "statistic",
+    "analytics",
+    "actuarial",
+    "mathematic"
+   ],
+   "th": [
+    "ข้อมูล",
+    "สถิติ",
+    "คณิตศาสตร์"
+   ]
+  },
+  {
+   "tag": "games",
+   "en": [
+    "game"
+   ],
+   "th": [
+    "เกม"
+   ]
+  },
+  {
+   "tag": "design",
+   "en": [
+    "animation",
+    "multimedia",
+    "graphic",
+    "design"
+   ],
+   "th": [
+    "ออกแบบ",
+    "แอนิเมชัน",
+    "มัลติมีเดีย"
+   ]
+  },
+  {
+   "tag": "food",
+   "en": [
+    "food",
+    "nutrition",
+    "culinary"
+   ],
+   "th": [
+    "อาหาร",
+    "โภชนา"
+   ]
+  },
+  {
+   "tag": "environment",
+   "en": [
+    "environment",
+    "ecolog",
+    "marine",
+    "forest"
+   ],
+   "th": [
+    "สิ่งแวดล้อม",
+    "ป่าไม้",
+    "ทะเล"
+   ]
+  },
+  {
+   "tag": "communication",
+   "en": [
+    "communication",
+    "journalism",
+    "media",
+    "broadcast",
+    "film",
+    "advertis",
+    "public relations",
+    "linguistic",
+    "english",
+    "chinese",
+    "japanese",
+    "korean"
+   ],
+   "th": [
+    "นิเทศ",
+    "สื่อสาร",
+    "วารสาร",
+    "ภาษา"
+   ]
+  },
+  {
+   "tag": "people",
+   "en": [
+    "psycholog",
+    "social work",
+    "nursing"
+   ],
+   "th": [
+    "จิตวิทยา",
+    "สังคมสงเคราะห์",
+    "พยาบาล"
+   ]
+  },
+  {
+   "tag": "society",
+   "en": [
+    "law",
+    "politic",
+    "public admin",
+    "sociology",
+    "international relations"
+   ],
+   "th": [
+    "นิติ",
+    "รัฐศาสตร์",
+    "รัฐประศาสน",
+    "สังคมวิทยา"
+   ]
+  },
+  {
+   "tag": "arts",
+   "en": [
+    "music",
+    "dance",
+    "theatre",
+    "performing"
+   ],
+   "th": [
+    "ดนตรี",
+    "ดุริยา",
+    "นาฏ",
+    "การแสดง"
+   ]
+  },
+  {
+   "tag": "business",
+   "en": [
+    "business",
+    "management",
+    "marketing",
+    "accounting",
+    "economic",
+    "finance",
+    "logistic"
+   ],
+   "th": [
+    "บริหาร",
+    "การตลาด",
+    "บัญชี",
+    "เศรษฐศาสตร์",
+    "การเงิน",
+    "โลจิสติกส์"
+   ]
+  },
+  {
+   "tag": "health",
+   "en": [
+    "sport",
+    "health"
+   ],
+   "th": [
+    "กีฬา",
+    "สุขภาพ"
+   ]
+  },
+  {
+   "tag": "education",
+   "en": [
+    "education",
+    "teacher"
+   ],
+   "th": [
+    "ครุ",
+    "ศึกษาศาสตร์"
+   ]
+  }
+ ]
+}

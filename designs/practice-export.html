@@ -1,0 +1,125 @@
+<!doctype html>
+<!-- PRACTICE EXPORT, hand-made for UniPath Day 3 in the style of a design-tool export (it is not real Stitch output).
+     It looks finished but is not wired: no form, no names or values, no ids, sample cards, and invented fields.
+     Wire it with STITCH.md. แบบฝึกที่ทำขึ้นเลียนแบบไฟล์ส่งออกจากเครื่องมือออกแบบ หน้าตาเสร็จแต่ยังไม่ได้ต่อสาย ต่อตาม STITCH.md -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PathFinder TH</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;background:#fffaf3;color:#2b2118;font-family:"Segoe UI","Noto Sans Thai",Tahoma,sans-serif;line-height:1.55}
+    .topbar{display:flex;justify-content:space-between;align-items:center;padding:14px 28px;background:#1f5f5b;color:#fff}
+    .brand{font-weight:800;letter-spacing:.5px}.signin{background:#ffb347;color:#2b2118;border:0;border-radius:999px;padding:8px 16px;font:inherit;font-weight:700}
+    .hero{max-width:1040px;margin:0 auto;padding:40px 24px 8px}.hero h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 10px}.hero p{max-width:640px;margin:0;color:#5a4a3c}
+    .panel{max-width:1040px;margin:24px auto;padding:24px;background:#fff;border-radius:22px;box-shadow:0 6px 24px #1f5f5b1a}
+    .panel h2{font-size:15px;text-transform:uppercase;letter-spacing:1px;color:#1f5f5b;margin:0 0 12px}
+    .chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+    .chip{display:inline-flex;gap:8px;align-items:center;padding:8px 14px;border:2px solid #f0dcc4;border-radius:999px;cursor:pointer;background:#fffaf3}
+    .chip:has(input:checked){border-color:#1f5f5b;background:#e3f1ef}.chip input{accent-color:#1f5f5b}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.field span{display:block;font-weight:700;margin-bottom:6px}
+    .field select{width:100%;padding:10px 12px;font:inherit;border:2px solid #f0dcc4;border-radius:12px;background:#fff}
+    .go{margin-top:20px;padding:13px 26px;font:inherit;font-weight:800;color:#fff;background:#e2673a;border:0;border-radius:14px;cursor:pointer}
+    .count{max-width:1040px;margin:8px auto;padding:0 24px;color:#5a4a3c}
+    .grid{max-width:1040px;margin:0 auto 40px;padding:0 24px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+    .card{background:#fff;border-radius:20px;padding:20px;border-top:6px solid #1f5f5b;box-shadow:0 4px 16px #2b21180f}
+    .card-uni{margin:0;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:#1f5f5b}
+    .card-title{margin:6px 0 2px;font-size:22px;line-height:1.25}.card-th{margin:0 0 10px;color:#5a4a3c}
+    .meta{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}.meta span{font-size:12px;padding:3px 10px;border-radius:999px;background:#f7ecdd}
+    .match{float:right;font-weight:800;color:#e2673a}.tuition{font-weight:700}.photo{height:120px;border-radius:14px;margin:0 0 12px;background:linear-gradient(135deg,#ffb347,#1f5f5b)}
+    .tags{font-size:14px;color:#1f5f5b}.more{display:inline-block;margin-top:10px;font-weight:800;color:#e2673a}.save{float:right;border:0;background:none;font-size:20px;color:#e2673a}
+    @media(max-width:640px){.row{grid-template-columns:1fr}.topbar,.hero,.panel{padding-left:16px;padding-right:16px}.panel{margin:16px}}
+  </style>
+</head>
+<body>
+  <nav class="topbar"><span class="brand">PathFinder TH</span><button class="signin">Sign in</button></nav>
+  <section class="hero">
+    <h1>Your interests, your university path.</h1>
+    <p>Pick what you love and discover Thai university programmes that share it. ค้นหาหลักสูตรที่ตรงกับความสนใจของคุณ</p>
+  </section>
+  <div class="panel">
+    <h2>What do you enjoy?</h2>
+    <div class="chips">
+      <label class="chip"><input type="checkbox"> Technology</label>
+      <label class="chip"><input type="checkbox"> Design</label>
+      <label class="chip"><input type="checkbox"> Games</label>
+      <label class="chip"><input type="checkbox"> Business</label>
+      <label class="chip"><input type="checkbox"> Data and numbers</label>
+      <label class="chip"><input type="checkbox"> Science</label>
+      <label class="chip"><input type="checkbox"> Food</label>
+      <label class="chip"><input type="checkbox"> People</label>
+      <label class="chip"><input type="checkbox"> Society</label>
+      <label class="chip"><input type="checkbox"> Communication</label>
+      <label class="chip"><input type="checkbox"> Environment</label>
+      <label class="chip"><input type="checkbox"> Health and care</label>
+      <label class="chip"><input type="checkbox"> Teaching and learning</label>
+      <label class="chip"><input type="checkbox"> Arts and performance</label>
+    </div>
+    <div class="row">
+      <label class="field"><span>Region</span>
+        <select>
+          <option>Anywhere in Thailand</option>
+          <option>Central, including Bangkok</option>
+          <option>North</option>
+          <option>South</option>
+          <option>Northeast</option>
+          <option>East</option>
+          <option>West</option>
+        </select>
+      </label>
+      <label class="field"><span>Teaching language</span>
+        <select>
+          <option>Any language</option>
+          <option>Thai including bilingual</option>
+          <option>English including bilingual</option>
+          <option>Bilingual</option>
+          <option>Unresolved</option>
+        </select>
+      </label>
+    </div>
+    <label class="chip"><input type="checkbox" checked> Include programmes whose language is not confirmed</label>
+    <br>
+    <button class="go">Show my matches</button>
+  </div>
+  <p class="count">Showing 3 programmes</p>
+  <div class="grid">
+    <article class="card">
+      <div class="photo"></div>
+      <button class="save" aria-label="Save">♥</button>
+      <p class="card-uni">Example University <span class="match">92% match</span></p>
+      <h3 class="card-title">Creative Game Design</h3>
+      <p class="card-th">การออกแบบเกมสร้างสรรค์ · มหาวิทยาลัยตัวอย่าง</p>
+      <p class="meta"><span>Chiang Mai</span><span>international</span><span>en</span></p>
+      <p class="tuition">Tuition: 45,000 THB per term</p>
+      <p>Build games from idea to prototype with artists and programmers.</p>
+      <p class="tags">You both like: games, design</p>
+      <a class="more" href="#">View programme →</a>
+    </article>
+    <article class="card">
+      <div class="photo"></div>
+      <button class="save" aria-label="Save">♥</button>
+      <p class="card-uni">Sample Institute of Technology <span class="match">87% match</span></p>
+      <h3 class="card-title">Interactive Media</h3>
+      <p class="card-th">สื่อปฏิสัมพันธ์ · สถาบันเทคโนโลยีตัวอย่าง</p>
+      <p class="meta"><span>Bangkok</span><span>thai</span><span>th</span></p>
+      <p class="tuition">Tuition: 38,000 THB per term</p>
+      <p>Design apps, websites and installations people can touch.</p>
+      <p class="tags">You both like: design, technology</p>
+      <a class="more" href="#">View programme →</a>
+    </article>
+    <article class="card">
+      <div class="photo"></div>
+      <button class="save" aria-label="Save">♥</button>
+      <p class="card-uni">Demo Southern University <span class="match">74% match</span></p>
+      <h3 class="card-title">Digital Business</h3>
+      <p class="card-th">ธุรกิจดิจิทัล · มหาวิทยาลัยใต้ตัวอย่าง</p>
+      <p class="meta"><span>Songkhla</span><span>bilingual</span><span>th_en</span></p>
+      <p class="tuition">Tuition: 30,000 THB per term</p>
+      <p>Start online businesses and learn how digital products earn money.</p>
+      <p class="tags">You both like: business</p>
+      <a class="more" href="#">View programme →</a>
+    </article>
+  </div>
+</body>
+</html>

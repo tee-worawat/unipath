@@ -1,0 +1,108 @@
+{
+  "muic-computer-science": {
+    "summary_en": "Explore programming and using data to solve problems.",
+    "project_en": "Build an activity recommender from user interests.",
+    "notes_th": []
+  },
+  "muic-communication-design": {
+    "summary_en": "Explore design that communicates ideas and stories.",
+    "project_en": "Design a campaign website about an issue you care about.",
+    "notes_th": []
+  },
+  "muic-food-science": {
+    "summary_en": "Explore food science and product ideas.",
+    "project_en": "Build a food-product idea explorer using fictional ingredients.",
+    "notes_th": []
+  },
+  "muic-international-relations": {
+    "summary_en": "Explore international relations and social issues.",
+    "project_en": "Build a finder for discussion topics about global issues.",
+    "notes_th": []
+  },
+  "cmu-software-engineering": {
+    "summary_en": "Explore software design, development and testing.",
+    "project_en": "Build a club finder for friends and test its results.",
+    "notes_th": [
+      "ส่วนรับสมัครอาจเป็นข้อมูลรอบเก่า ไม่ยืนยันการเปิดรับปัจจุบัน"
+    ]
+  },
+  "cmu-digital-game": {
+    "summary_en": "Explore game design and game programming.",
+    "project_en": "Build a branching game website based on visitor decisions.",
+    "notes_th": [
+      "หน้าแหล่งข้อมูลระบุว่ากำลังปรับปรุงหลักสูตร",
+      "หน้าหลักสูตรระบุไทย/อังกฤษ แต่สไลด์ CAMT ปี 2026 ระบุรูปแบบไทย ต้องตรวจรอบที่ต้องการก่อนใช้ป้ายภาษา"
+    ]
+  },
+  "cmu-animation-vfx": {
+    "summary_en": "Explore animation, visual storytelling and technology.",
+    "project_en": "Build a character-design idea finder from visitor choices.",
+    "notes_th": [
+      "ชื่อทางการเก็บจากหัวหน้าเว็บเท่านั้น รายละเอียดปริญญาในหน้าเดียวกันขัดแย้งกัน",
+      "ภาพรวมระบุไทย แต่รายละเอียดระบุไทย/อังกฤษ จึงยังไม่ยืนยันภาษาและรูปแบบ",
+      "หลักสูตรกำลังปรับปรุง"
+    ]
+  },
+  "cmu-management-it": {
+    "summary_en": "Explore business management and information systems.",
+    "project_en": "Build a tool finder for managing a fictional shop.",
+    "notes_th": [
+      "ป้ายสองภาษาตามภาพรวมหน้าเว็บ เอกสารหลักสูตรที่ลิงก์มีหลายรูปแบบและหลายฉบับ"
+    ]
+  },
+  "psu-digital-engineering": {
+    "summary_en": "Explore software, networks and digital systems.",
+    "project_en": "Build a smart-device kit finder using a fictional budget.",
+    "notes_th": [
+      "ยืนยันรูปแบบนานาชาติ แต่ไม่สมมติว่าสอนอังกฤษ แหล่งข้อมูลแยกรหัสนักศึกษา 67 เป็นต้นไปและ 62–66"
+    ]
+  },
+  "psu-digital-business": {
+    "summary_en": "Explore digital business, marketing and data analysis.",
+    "project_en": "Build a sales-channel finder for a fictional shop.",
+    "notes_th": [
+      "ยืนยันรูปแบบนานาชาติ แต่ไม่สมมติว่าสอนอังกฤษ"
+    ]
+  },
+  "psu-computing": {
+    "summary_en": "Explore computing, data and digital media.",
+    "project_en": "Build a project-idea finder based on interests.",
+    "notes_th": []
+  },
+  "psu-finance": {
+    "summary_en": "Explore finance and numerical decision-making.",
+    "project_en": "Build a school-event budget calculator using fictional data.",
+    "notes_th": [
+      "จับคู่ความสนใจจากชื่อหลักสูตรในภาพกว้าง ไม่ใช่การทบทวนหลักสูตรทั้งหมด"
+    ]
+  },
+  "psu-food-nutrition": {
+    "summary_en": "Explore connections between food and nutrition.",
+    "project_en": "Build a finder for food-related learning topics.",
+    "notes_th": [
+      "แนวคิดโครงงานเป็นการค้นหาหัวข้อเรียนรู้ ไม่ใช่คำแนะนำอาหารรายบุคคล"
+    ]
+  },
+  "chula-communication-arts": {
+    "summary_en": "Explore communication, storytelling and media production.",
+    "project_en": "Build a storytelling approach finder for a campaign.",
+    "notes_th": [
+      "ลิงก์รับสมัครทางการเป็น TCAS69 ไม่ใช่ TCAS70"
+    ]
+  },
+  "chula-psychology": {
+    "summary_en": "Explore human behaviour and psychology research.",
+    "project_en": "Build a finder for learning activities about behaviour.",
+    "notes_th": [
+      "เป็นคนละหลักสูตรกับ Psychological Science นานาชาติ"
+    ]
+  },
+  "ku-environmental-engineering": {
+    "summary_en": "Explore water, waste and pollution management.",
+    "project_en": "Build a school environmental-project idea finder.",
+    "notes_th": [
+      "ภาษาเว็บไซต์ไม่ยืนยันภาษาที่ใช้สอน",
+      "ที่ตั้งอ้างอิงที่อยู่ภาควิชา ไม่ยืนยันรอบรับสมัครหรือสถานที่เรียนครบทุกช่วง"
+    ]
+  }
+}

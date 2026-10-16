@@ -1,0 +1,55 @@
+[
+  {
+    "id": "practice-01",
+    "fictional": true,
+    "interest_tags": [
+      "technology",
+      "design"
+    ],
+    "region": "north",
+    "teaching_language": "any",
+    "include_unknown_language": true
+  },
+  {
+    "id": "practice-02",
+    "fictional": true,
+    "interest_tags": [
+      "business",
+      "data"
+    ],
+    "region": "south",
+    "teaching_language": "any",
+    "include_unknown_language": true
+  },
+  {
+    "id": "practice-03",
+    "fictional": true,
+    "interest_tags": [
+      "science",
+      "food"
+    ],
+    "region": "any",
+    "teaching_language": "th",
+    "include_unknown_language": false
+  },
+  {
+    "id": "practice-04",
+    "fictional": true,
+    "interest_tags": [
+      "environment"
+    ],
+    "region": "north",
+    "teaching_language": "any",
+    "include_unknown_language": true
+  },
+  {
+    "id": "practice-05",
+    "fictional": true,
+    "interest_tags": [
+      "technology"
+    ],
+    "region": "south",
+    "teaching_language": "en",
+    "include_unknown_language": true
+  }
+]
